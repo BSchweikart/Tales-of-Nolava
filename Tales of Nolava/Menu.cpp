@@ -11,6 +11,7 @@ Menu::Menu()
 Menu::~Menu()
 {
 }
+
 #pragma region Start-Menu
 void Menu::startMenu()
 {
@@ -35,7 +36,7 @@ void Menu::startMenu()
 		break;
 
 	case 2:
-
+		characterLoad();
 		break;
 
 	case 3:
@@ -155,5 +156,33 @@ void Menu::characterSave()
 #pragma region characterLoad
 void Menu::characterLoad()
 {
+	ifstream inFile(filename);
+
+	this->player.clear();
+
+	//Player information
+	string name = "";
+	int level = 0;
+	int exp = 0;
+	int expNext = 0;
+
+	//Player Stats
+	int strength = 0;
+	int dexterity = 0;
+	int intelligence = 0;
+	int vitality = 0;
+
+	//Player Stats cont..
+	int hpCurrent = 0;
+	int hpMax = 0;
+	int damageMin = 0;
+	int damageMax = 0;
+	int defense = 0;
+
+	string line = "";
 }
+#pragma endregion
+
+#pragma region charaterSelection
+
 #pragma endregion
