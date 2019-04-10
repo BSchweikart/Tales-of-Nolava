@@ -1,0 +1,26 @@
+TODO List
+
+--Character--
+1. Create Race
+	a. Has base stats for the player
+	b.
+
+2. Create Classes
+	a. Adds on to base stats for the player
+	b.
+
+3. Set starting items per Class
+	a. Weapon
+	b. Gold
+	c. Potions
+	d. Armor
+
+--Location--
+1. Set starting Location
+
+2. Set NPC/Items in rooms
+	a. Place random items in rooms
+	b. NPC type per room if any
+	c.
+
+--Build Combat--
