@@ -142,7 +142,7 @@ void Menu::characterSave()
 
 	if (outfile.is_open())
 	{
-		for (size_t i = 0; i < player.size; i++)
+		for (size_t i = 0; i < player.size(); i++)
 		{
 			outfile << player[i].getAsString() << '\n';
 		}
